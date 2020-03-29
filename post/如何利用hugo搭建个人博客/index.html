@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <title>如何利用hugo搭建个人博客 // 姜义威的博客</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://jefferyhaha.github.io/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何利用hugo搭建个人博客"/>
+<meta name="twitter:description" content="  搭建个人博客-姜义威 在path中设置环境变量 D:\hugo; 查看hugo版本 hugo version 生成站点 使用Hugo快速生成站点，进入到 D:\hugo
+hugo new site mysite 这样就在hugo目录里生成了初始站点，进去目录
+cd mysite/ 装皮肤 cd themes git clone https://github.com/vaga/hugo-theme-m10c.git 创建一篇日志文件 hugo new post/first.md 执行完后，会在content/post目录自动生成一个markdown格式的first.md文件：
+安本地预览 在 \mysite 目录下启动 hugo server
+hugo server --theme=hugo-theme-m10c --buildDrafts --watch 部署Github 在站点根目录执行 Hugo 命令生成最终页面：
+hugo --theme=hugo-theme-m10c --baseUrl=&#34;https://jefferyhaha.github.io/&#34; (注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。)
+如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
+后续更新博客输入代码 hugo new post/first.md hugo server --theme=hugo-theme-m10c --buildDrafts --watch hugo --theme=hugo-theme-m10c --baseUrl=&#34;https://jefferyhaha.github.io/&#34;   "/>
+
+    <meta property="og:title" content="如何利用hugo搭建个人博客" />
+<meta property="og:description" content="  搭建个人博客-姜义威 在path中设置环境变量 D:\hugo; 查看hugo版本 hugo version 生成站点 使用Hugo快速生成站点，进入到 D:\hugo
+hugo new site mysite 这样就在hugo目录里生成了初始站点，进去目录
+cd mysite/ 装皮肤 cd themes git clone https://github.com/vaga/hugo-theme-m10c.git 创建一篇日志文件 hugo new post/first.md 执行完后，会在content/post目录自动生成一个markdown格式的first.md文件：
+安本地预览 在 \mysite 目录下启动 hugo server
+hugo server --theme=hugo-theme-m10c --buildDrafts --watch 部署Github 在站点根目录执行 Hugo 命令生成最终页面：
+hugo --theme=hugo-theme-m10c --baseUrl=&#34;https://jefferyhaha.github.io/&#34; (注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。)
+如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
+后续更新博客输入代码 hugo new post/first.md hugo server --theme=hugo-theme-m10c --buildDrafts --watch hugo --theme=hugo-theme-m10c --baseUrl=&#34;https://jefferyhaha.github.io/&#34;   " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jefferyhaha.github.io/post/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
+<meta property="article:published_time" content="2020-03-29T15:24:27+08:00" />
+<meta property="article:modified_time" content="2020-03-29T15:24:27+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jefferyhaha.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>姜义威的博客</h1>
+      <p>姜义威的博客，用于记录我的学习和生活历程</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/gohugoio" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/gohugoio" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">如何利用hugo搭建个人博客</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Mar 29, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <ul>
+<li>
+<h1 id="搭建个人博客-姜义威">搭建个人博客-姜义威</h1>
+<h2 id="在path中设置环境变量-dhugo">在path中设置环境变量 D:\hugo;</h2>
+<h2 id="查看hugo版本">查看hugo版本</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">hugo version
+</code></pre></div><h2 id="生成站点">生成站点</h2>
+<p>使用Hugo快速生成站点，进入到 D:\hugo</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C"> hugo new site mysite
+</code></pre></div><p>这样就在hugo目录里生成了初始站点，进去目录</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C">cd mysite<span style="color:#f92672">/</span>
+</code></pre></div><h2 id="装皮肤">装皮肤</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C">cd themes
+git clone https:<span style="color:#75715e">//github.com/vaga/hugo-theme-m10c.git
+</span></code></pre></div><h2 id="创建一篇日志文件">创建一篇日志文件</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C">hugo new post<span style="color:#f92672">/</span>first.md
+</code></pre></div><p>执行完后，会在content/post目录自动生成一个markdown格式的first.md文件：</p>
+<h2 id="安本地预览">安本地预览</h2>
+<p>在 \mysite 目录下启动 hugo server</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C">hugo server <span style="color:#f92672">--</span>theme<span style="color:#f92672">=</span>hugo<span style="color:#f92672">-</span>theme<span style="color:#f92672">-</span>m10c <span style="color:#f92672">--</span>buildDrafts <span style="color:#f92672">--</span>watch
+</code></pre></div><h2 id="部署github">部署Github</h2>
+<p>在站点根目录执行 Hugo 命令生成最终页面：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C"> hugo <span style="color:#f92672">--</span>theme<span style="color:#f92672">=</span>hugo<span style="color:#f92672">-</span>theme<span style="color:#f92672">-</span>m10c <span style="color:#f92672">--</span>baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://jefferyhaha.github.io/&#34;</span>
+      
+</code></pre></div><p>(注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 <strong>draft=true</strong> 再重新生成。)</p>
+<p>如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。</p>
+<h2 id="后续更新博客输入代码">后续更新博客输入代码</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">hugo new post<span style="color:#f92672">/</span>first.md
+hugo server <span style="color:#f92672">--</span>theme<span style="color:#f92672">=</span>hugo<span style="color:#f92672">-</span>theme<span style="color:#f92672">-</span>m10c <span style="color:#f92672">--</span>buildDrafts <span style="color:#f92672">--</span>watch
+hugo <span style="color:#f92672">--</span>theme<span style="color:#f92672">=</span>hugo<span style="color:#f92672">-</span>theme<span style="color:#f92672">-</span>m10c <span style="color:#f92672">--</span>baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://jefferyhaha.github.io/&#34;</span>
+</code></pre></div></li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

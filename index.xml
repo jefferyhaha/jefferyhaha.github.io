@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>姜义威的博客</title>
+    <link>https://jefferyhaha.github.io/</link>
+    <description>Recent content on 姜义威的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 29 Mar 2020 15:24:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://jefferyhaha.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>STM32定时器</title>
+      <link>https://jefferyhaha.github.io/post/%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Sun, 29 Mar 2020 15:24:27 +0800</pubDate>
+      
+      <guid>https://jefferyhaha.github.io/post/%E6%B5%8B%E8%AF%95/</guid>
+      <description>  搭建个人博客-姜义威 在path中设置环境变量 D:\hugo; 查看hugo版本 hugo version 生成站点 使用Hugo快速生成站点，进入到 D:\hugo
+hugo new site mysite 这样就在hugo目录里生成了初始站点，进去目录
+cd mysite/ 装皮肤 cd themes git clone https://github.com/vaga/hugo-theme-m10c.git 创建一篇日志文件 hugo new post/first.md 执行完后，会在content/post目录自动生成一个markdown格式的first.md文件：
+安本地预览 在 \mysite 目录下启动 hugo server
+hugo server --theme=hugo-theme-m10c --buildDrafts --watch 部署Github 在站点根目录执行 Hugo 命令生成最终页面：
+hugo --theme=hugo-theme-m10c --baseUrl=&amp;#34;https://jefferyhaha.github.io/&amp;#34; (注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。)
+如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
+后续更新博客输入代码 hugo new post/first.md hugo server --theme=hugo-theme-m10c --buildDrafts --watch hugo --theme=hugo-theme-m10c --baseUrl=&amp;#34;https://jefferyhaha.github.io/&amp;#34;   </description>
+    </item>
+    
+    <item>
+      <title>如何利用hugo搭建个人博客</title>
+      <link>https://jefferyhaha.github.io/post/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sun, 29 Mar 2020 15:24:27 +0800</pubDate>
+      
+      <guid>https://jefferyhaha.github.io/post/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>  搭建个人博客-姜义威 在path中设置环境变量 D:\hugo; 查看hugo版本 hugo version 生成站点 使用Hugo快速生成站点，进入到 D:\hugo
+hugo new site mysite 这样就在hugo目录里生成了初始站点，进去目录
+cd mysite/ 装皮肤 cd themes git clone https://github.com/vaga/hugo-theme-m10c.git 创建一篇日志文件 hugo new post/first.md 执行完后，会在content/post目录自动生成一个markdown格式的first.md文件：
+安本地预览 在 \mysite 目录下启动 hugo server
+hugo server --theme=hugo-theme-m10c --buildDrafts --watch 部署Github 在站点根目录执行 Hugo 命令生成最终页面：
+hugo --theme=hugo-theme-m10c --baseUrl=&amp;#34;https://jefferyhaha.github.io/&amp;#34; (注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。)
+如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
+后续更新博客输入代码 hugo new post/first.md hugo server --theme=hugo-theme-m10c --buildDrafts --watch hugo --theme=hugo-theme-m10c --baseUrl=&amp;#34;https://jefferyhaha.github.io/&amp;#34;   </description>
+    </item>
+    
+  </channel>
+</rss>
